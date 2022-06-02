@@ -1,9 +1,11 @@
-import React from "react";
+import React from 'react'
+import {ThemeProvider} from "./context/ThemeContext";
+import Navbar from "./components/Navbar";
 
 export default function App() {
   return (
-      <h1 className="text-3xl font-bold underline">
-          Hello world!
-      </h1>
-  );
+      <ThemeProvider>
+        <Navbar/>
+      </ThemeProvider>
+  )
 }
