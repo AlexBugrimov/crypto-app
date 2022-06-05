@@ -1,5 +1,6 @@
 .idea/
 
+*.iml
 # dependencies
 /node_modules
 /.pnp
